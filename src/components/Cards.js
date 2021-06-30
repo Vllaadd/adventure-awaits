@@ -6,9 +6,9 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='cards_container'>
+        <div className='cards_wrapper'>
+          <ul className='cards_items'>
             <CardItem
               src='images/img-9.jpeg'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
@@ -22,7 +22,7 @@ function Cards() {
               path='/services'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='cards_items'>
             <CardItem
               src='images/img-3.jpeg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
